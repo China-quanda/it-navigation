@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app:{
     baseURL: '/it-navigation/',
   },
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   // 环境变量和私有令牌 
   // https://nuxt.com.cn/docs/getting-started/configuration#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%92%8C%E7%A7%81%E6%9C%89%E4%BB%A4%E7%89%8C
   runtimeConfig: {
