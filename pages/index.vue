@@ -2307,7 +2307,8 @@ const testList = ref([
               上需求池：提需求，反馈BUG，提创意！
             </div>
           </a>
-          <div id="recommend-community-div" style="min-height: 200px"><a href="/bbs/detail?id=5344" target="_blank">
+          <div id="recommend-community-div" style="min-height: 200px">
+            <a href="/bbs/detail?id=5344" target="_blank">
               <div class="bbs-jingxuan-item-list" style="margin: 5px 0px; width: 270px;">
                 <p class="line2ppp bbs-jingxuan-item-content-noimg">早上好！今天是 2024年07月02日 星期二</p>
                 <p class="bbs-jingxuan-item-list-operate-data">14 浏览 · 0 评论</p>
@@ -2316,7 +2317,8 @@ const testList = ref([
                     src="https://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/moyurili/1d70213fb7ce4119b0f4bd3ecfc8ef24_1719882028079.png?x-oss-process=image/resize,m_fill,w_70,h_70">
                 </div>
               </div>
-            </a><a href="/bbs/detail?id=5340" target="_blank">
+            </a>
+            <a href="/bbs/detail?id=5340" target="_blank">
               <div class="bbs-jingxuan-item-list" style="margin: 5px 0px; width: 270px;">
                 <p class="line2ppp bbs-jingxuan-item-content-noimg">早上好！今天是 2024年07月01日 星期一</p>
                 <p class="bbs-jingxuan-item-list-operate-data">22 浏览 · 0 评论</p>
@@ -2325,12 +2327,14 @@ const testList = ref([
                     src="https://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/moyurili/70c861f241bb418ab45f2d4156217f2b_1719795602153.png?x-oss-process=image/resize,m_fill,w_70,h_70">
                 </div>
               </div>
-            </a><a href="/bbs/detail?id=5338" target="_blank">
+            </a>
+            <a href="/bbs/detail?id=5338" target="_blank">
               <div class="bbs-jingxuan-item-list" style="margin: 5px 0px; width: 270px;">
                 <p class="line2ppp bbs-jingxuan-item-content">讯飞星火V4.0 发布，全面对标GPT-4 Turbo</p>
                 <p class="bbs-jingxuan-item-list-operate-data">17 浏览 · 1 评论</p>
               </div>
-            </a><a href="/bbs/detail?id=5331" target="_blank">
+            </a>
+            <a href="/bbs/detail?id=5331" target="_blank">
               <div class="bbs-jingxuan-item-list" style="margin: 5px 0px; width: 270px;">
                 <p class="line2ppp bbs-jingxuan-item-content-noimg">早上好！今天是 2024年06月28日 星期五</p>
                 <p class="bbs-jingxuan-item-list-operate-data">25 浏览 · 0 评论</p>
@@ -2339,12 +2343,14 @@ const testList = ref([
                     src="https://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/moyurili/ed48aac750c24be5abf864b02617878a_1719536464536.png?x-oss-process=image/resize,m_fill,w_70,h_70">
                 </div>
               </div>
-            </a><a href="/bbs/detail?id=5330" target="_blank">
+            </a>
+            <a href="/bbs/detail?id=5330" target="_blank">
               <div class="bbs-jingxuan-item-list" style="margin: 5px 0px; width: 270px;">
                 <p class="line2ppp bbs-jingxuan-item-content">包阅AI-你的智能AI阅读助手，即时提练总结，高效获取答案</p>
                 <p class="bbs-jingxuan-item-list-operate-data">17 浏览 · 1 评论</p>
               </div>
-            </a></div>
+            </a>
+          </div>
         </div>
         <div class="layout-left-module-item" id="recommend-card-4"
           style="background-color: transparent; border: 1px solid rgb(236, 234, 234); border-radius: 5px; padding: 0px; width: 295px;overflow: hidden;">
@@ -2355,21 +2361,16 @@ const testList = ref([
           </a>
         </div>
         <div class="layout-left-module-item" id="module-csdn-hot-search">
-          <p class="layout-left-module-item-title">
+          <div class="layout-left-module-item-title">
             <a href="https://www.coderutil.com/cuapi/2003" target="_blank">CSDN热门文章</a>
-          <div class="layui-icon load-btn layui-icon-refresh btn"
-            style="font-size: 13px; color: #3d3d3d; float: right;cursor: pointer;">
             <svg width="16" height="16" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M42 8V24" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M6 24L6 40" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path
-                d="M42 24C42 14.0589 33.9411 6 24 6C18.9145 6 14.3216 8.10896 11.0481 11.5M6 24C6 33.9411 14.0589 42 24 42C28.8556 42 33.2622 40.0774 36.5 36.9519"
-                stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+                <path d="M42 8V24" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M6 24L6 40" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M42 24C42 14.0589 33.9411 6 24 6C18.9145 6 14.3216 8.10896 11.0481 11.5M6 24C6 33.9411 14.0589 42 24 42C28.8556 42 33.2622 40.0774 36.5 36.9519"
+                  stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
           </div>
-          <!-- <i class="layui-icon load-btn layui-icon-refresh btn" id="refresh-csdn-hot-search-btn"
-              style="font-size: 13px; color: #3d3d3d; float: right"></i> -->
-          </p>
           <p style="line-height: 40px; color: #c68686; display: none" id="csdn-hot-search-refresh-finished">CSDN热门文章已刷新
           </p>
           <div class="csdn-hot-search-result" id="csdn-hot-search-result" style="text-align: left; line-height: 30px;">
@@ -2414,21 +2415,16 @@ const testList = ref([
           </div>
         </div>
         <div class="layout-left-module-item" id="module-csdn-hot-search">
-          <p class="layout-left-module-item-title">
+          <div class="layout-left-module-item-title">
             <a href="https://www.coderutil.com/cuapi/2003" target="_blank">微博热搜</a>
-          <div class="layui-icon load-btn layui-icon-refresh btn"
-            style="font-size: 13px; color: #3d3d3d; float: right;cursor: pointer;">
             <svg width="16" height="16" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M42 8V24" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M6 24L6 40" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path
-                d="M42 24C42 14.0589 33.9411 6 24 6C18.9145 6 14.3216 8.10896 11.0481 11.5M6 24C6 33.9411 14.0589 42 24 42C28.8556 42 33.2622 40.0774 36.5 36.9519"
-                stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+                <path d="M42 8V24" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M6 24L6 40" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M42 24C42 14.0589 33.9411 6 24 6C18.9145 6 14.3216 8.10896 11.0481 11.5M6 24C6 33.9411 14.0589 42 24 42C28.8556 42 33.2622 40.0774 36.5 36.9519"
+                  stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
           </div>
-          <!-- <i class="layui-icon load-btn layui-icon-refresh btn" id="refresh-csdn-hot-search-btn"
-              style="font-size: 13px; color: #3d3d3d; float: right"></i> -->
-          </p>
           <p style="line-height: 40px; color: #c68686; display: none" id="csdn-hot-search-refresh-finished">CSDN热门文章已刷新
           </p>
           <div id="weibo-hot-search-result" style="text-align: left; line-height: 30px;">
@@ -2475,21 +2471,16 @@ const testList = ref([
           </div>
         </div>
         <div class="layout-left-module-item" id="module-csdn-hot-search">
-          <p class="layout-left-module-item-title">
+          <div class="layout-left-module-item-title">
             <a href="https://www.coderutil.com/cuapi/2003" target="_blank">百度热搜</a>
-          <div class="layui-icon load-btn layui-icon-refresh btn"
-            style="font-size: 13px; color: #3d3d3d; float: right;cursor: pointer;">
             <svg width="16" height="16" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M42 8V24" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M6 24L6 40" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path
-                d="M42 24C42 14.0589 33.9411 6 24 6C18.9145 6 14.3216 8.10896 11.0481 11.5M6 24C6 33.9411 14.0589 42 24 42C28.8556 42 33.2622 40.0774 36.5 36.9519"
-                stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+                <path d="M42 8V24" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M6 24L6 40" stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M42 24C42 14.0589 33.9411 6 24 6C18.9145 6 14.3216 8.10896 11.0481 11.5M6 24C6 33.9411 14.0589 42 24 42C28.8556 42 33.2622 40.0774 36.5 36.9519"
+                  stroke="#3d3d3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
           </div>
-          <!-- <i class="layui-icon load-btn layui-icon-refresh btn" id="refresh-csdn-hot-search-btn"
-              style="font-size: 13px; color: #3d3d3d; float: right"></i> -->
-          </p>
           <p style="line-height: 40px; color: #c68686; display: none" id="csdn-hot-search-refresh-finished">CSDN热门文章已刷新
           </p>
           <div id="baidu-hot-search-result" style="text-align: left; line-height: 30px;">
@@ -2536,10 +2527,12 @@ const testList = ref([
           </div>
         </div>
         <div class="layout-left-module-item" style="height: 460px;">
-          <p class="layout-left-module-item-title">
-            <img src="https://coderutil.oss-cn-beijing.aliyuncs.com/static/icon/icon-resource.png"
-              style="width: 23px; margin-right: 5px">更多常用工具集
-          </p>
+          <div class="layout-left-module-item-title">
+            <a href="https://www.coderutil.com/cuapi/2003" target="_blank" style="display: flex;align-items: center;">
+              <img src="https://coderutil.oss-cn-beijing.aliyuncs.com/static/icon/icon-resource.png" style="width: 23px; margin-right: 5px"/>
+              更多常用工具集
+            </a>
+          </div>
           <a class="simple-web-link bg200 margin-right-bottom-10px" style="font-size: 12px;"
             href="https://tools.pdf24.org/zh/" target="_blank">tools.pdf24 - 免费强大的PDF在线处理工具</a>
           <a class="simple-web-link bg200 margin-right-bottom-10px" style="font-size: 12px;"
@@ -3749,98 +3742,21 @@ const testList = ref([
     box-shadow: 8px 8px 20px 0 rgba(55, 99, 170, .1);
 
     .layout-left-module-item-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       line-height: 40px;
-      text-align: left;
+      // text-align: left;
       font-weight: 600;
-
-      .layui-icon {
-        font-family: layui-icon !important;
-        font-size: 16px;
-        font-style: normal;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
+      svg{
+        cursor: pointer;
       }
     }
+    .api-data{
+          font-size: 14px;
+        }
 
-    .bg200,
-    .bg201,
-    .bg202,
-    .bg203,
-    .bg204,
-    .bg205 {
-      padding: 5px;
-      background-color: #f5f7fd;
-      border-radius: 3px;
-    }
-
-    .bg201 {
-      background-color: #efede8;
-    }
-
-    .bg202 {
-      background-color: #f5e6e6;
-    }
-
-    .bg203 {
-      background-color: #d6d6ec;
-    }
-
-    .bg204 {
-      background-color: #beecbe;
-    }
-
-    .bg205 {
-      background-color: #eee3e3;
-    }
-
-    .margin-right-bottom-10px {
-      margin-right: 6px;
-      margin-bottom: 7px;
-      padding: 2px 5px;
-    }
-
-    .simple-web-link {
-      position: relative;
-      float: left;
-      margin-right: 15px;
-      color: #232222;
-      min-height: 18px;
-      line-height: 18px;
-    }
-
-    .line1ppp {
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      word-break: break-all;
-
-      .layui-badge {
-        height: 18px;
-        line-height: 18px;
-      }
-
-      .layui-badge,
-      .layui-badge-dot,
-      .layui-badge-rim {
-        position: relative;
-        display: inline-block;
-        padding: 0 6px;
-        font-size: 12px;
-        text-align: center;
-        background-color: #FF5722;
-        color: #fff;
-        border-radius: 2px;
-      }
-
-      .layui-bg-blue {
-        background-color: #1E9FFF !important;
-      }
-
-      .layui-bg-orange {
-        background-color: #FFB800 !important;
-      }
-
-      .bbs-jingxuan-item-list {
+    .bbs-jingxuan-item-list {
         position: relative;
         margin: 5px 10px 10px 10px;
         width: 250px;
@@ -3892,8 +3808,86 @@ const testList = ref([
             transition: all 0.5s;
           }
         }
-
       }
+
+    .bg200,
+    .bg201,
+    .bg202,
+    .bg203,
+    .bg204,
+    .bg205 {
+      padding: 5px;
+      background-color: #f5f7fd;
+      border-radius: 3px;
+    }
+
+    .bg201 {
+      background-color: #efede8;
+    }
+
+    .bg202 {
+      background-color: #f5e6e6;
+    }
+
+    .bg203 {
+      background-color: #d6d6ec;
+    }
+
+    .bg204 {
+      background-color: #beecbe;
+    }
+
+    .bg205 {
+      background-color: #eee3e3;
+    }
+
+    .margin-right-bottom-10px {
+      margin-right: 6px;
+      margin-bottom: 7px;
+      padding: 2px 5px;
+    }
+
+    .simple-web-link {
+      position: relative;
+      float: left;
+      margin-right: 12px;
+      color: #232222;
+      min-height: 18px;
+      line-height: 18px;
+    }
+
+    .line1ppp {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      word-break: break-all;
+
+      .layui-badge {
+        height: 18px;
+        line-height: 18px;
+      }
+
+      .layui-badge,
+      .layui-badge-dot,
+      .layui-badge-rim {
+        position: relative;
+        display: inline-block;
+        padding: 0 6px;
+        font-size: 12px;
+        text-align: center;
+        background-color: #FF5722;
+        color: #fff;
+        border-radius: 2px;
+      }
+
+      .layui-bg-blue {
+        background-color: #1E9FFF !important;
+      }
+
+      .layui-bg-orange {
+        background-color: #FFB800 !important;
+      }
+
     }
 
     .adv-tag {
@@ -4261,6 +4255,7 @@ const testList = ref([
 
       img {
         height: 20px;
+        width: 20px;
         margin-right: 5px;
       }
     }
