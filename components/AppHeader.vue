@@ -25,30 +25,7 @@
         <h1 class="logo-title">xx导航</h1>
         <img class="logo-img" src="http://iph.href.lu/180x60?text=LOGO">
       </a>
-      <div class="search-module">
-        <select class="search-source">
-          <option data-search-engine="BAIDU" id="BAIDU" value="https://www.baidu.com/s?ie=UTF-8&amp;wd=">百度</option>
-          <option data-search-engine="GOOGLE" id="GOOGLE" value="https://www.google.com/search?q=">Google</option>
-          <option data-search-engine="META" id="META" value="https://metaso.cn/?q=">metaso</option>
-          <option data-search-engine="KAISOU" id="KAISOU" value="https://kaisouai.com/?from=coderutil&amp;q=">开搜Ai
-          </option>
-          <option data-search-engine="BIYING" id="BIYING" value="https://cn.bing.com/search?q=">必应</option>
-          <option data-search-engine="CODERSEARCH" id="CODERSEARCH" value="https://kaifa.baidu.com/searchPage?wd=">开发者搜索
-          </option>
-          <option data-search-engine="GITHUB" id="GITHUB" value="https://github.com/search?q=">GitHub</option>
-          <option data-search-engine="CSDN" id="CSDN" value="https://so.csdn.net/so/search/all?q=">CSDN</option>
-          <option data-search-engine="TOUTIAO" id="TOUTIAO"
-            value="https://so.toutiao.com/search?dvpf=pc&amp;source=input&amp;keyword=">头条</option>
-          <option data-search-engine="ZHIHU" id="ZHIHU" value="https://www.zhihu.com/search?type=content&amp;q=">知乎
-          </option>
-          <option data-search-engine="PM" id="PM" value="http://api.woshipm.com/search/list.html?key=">产品经理</option>
-          <option data-search-engine="MUSIC163" id="MUSIC163" value="https://music.163.com/#/search/m/?s=">网易云音乐
-          </option>
-          <option data-search-engine="CODER_UTIL" id="CODER_UTIL" value="/search?t=all&amp;q=">站内</option>
-        </select>
-        <input class="search-input" placeholder="助力程序员编程提效，设置为浏览器默认打开页使用更便捷">
-        <div class="search-btn">搜索</div>
-      </div>
+      <Search v-model="keyword"></Search>
       <div class="btns">
         <button class="system-setting">
           <svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,6 +72,7 @@
 </template>
 
 <script setup lang="ts">
+const keyword = ref('')
 const dataTime = ref('')
 const time = ref('')
 const isFixed = ref(false)
@@ -217,61 +195,6 @@ onMounted(() => {
       border-radius: 4px;
       width: 100%;
       height: 100%;
-    }
-  }
-
-  .search-module {
-    display: flex;
-    justify-content: space-between;
-    width: 700px;
-    height: 45px;
-    border: 2px solid #000;
-    border-radius: 5px;
-    overflow: hidden;
-
-    .search-source {
-      height: 43px;
-      width: 100px;
-      border: 0px;
-      text-align: center;
-      font-size: 14px;
-      text-indent: 0.4em;
-      background-color: transparent;
-
-      option {
-        line-height: 43px;
-        border: 0px;
-      }
-    }
-
-    .search-input {
-      padding: 0px 15px;
-      width: 490px;
-      height: 43px;
-      font-size: 15px;
-      line-height: 45px;
-      border: 0px;
-      background-color: transparent;
-      text-transform: none;
-      text-shadow: none;
-      display: inline-block;
-      box-sizing: border-box !important;
-    }
-
-    .search-btn {
-      cursor: pointer;
-      text-align: center;
-      height: 43px;
-      width: 100px;
-      background-color: #000;
-      color: white;
-      line-height: 43px;
-      font-size: 18px;
-      font-weight: 500;
-
-      &:hover {
-        background: #2b2a2a;
-      }
     }
   }
 
