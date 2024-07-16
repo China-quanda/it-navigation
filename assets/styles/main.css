@@ -13,6 +13,10 @@ button, input, optgroup, option, select, textarea {
   font-weight: inherit;
   outline: 0;
 }
+ul, ol ,li{
+  display:unset;
+  unicode-bidi: unset;
+}
 button{
   border: 0px;
   background-color: transparent;
