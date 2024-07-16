@@ -3,7 +3,7 @@
     <select class="search-source" v-model="selected" @change="sourceChange(selected)">
       <option :value="item.name" v-for="(item, index) in selects" :key="index">{{ item.name }}</option>
     </select>
-    <input class="search-input" :placeholder="placeholder" v-model="keyword">
+    <input class="search-input" :placeholder="placeholder" v-model="keyword" @keyup.enter="searchHandle">
     <div class="search-btn" @click="searchHandle">搜索</div>
   </div>
 </template>
