@@ -215,6 +215,12 @@ definePageMeta({
   align-items: center;
   .dataTime{
     font-size: 55px;
+    font-weight: 700;
+    // letter-spacing: -.04em;
+    background: linear-gradient(137.59deg, #555 20%, #000 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
   }
 }
 .tabs-box {
