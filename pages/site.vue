@@ -68,7 +68,7 @@
       <div class="comment block-div">
         <div class="section-title">
           <Icon class="icon" name="carbon:chat" size="20" />
-          评论 (33)
+          评论 33
         </div>
         <div class="comment-form comment-editor">
           <div class="content">
