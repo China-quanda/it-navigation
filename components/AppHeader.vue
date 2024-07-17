@@ -1,6 +1,6 @@
 <template>
   <header :class="['header', isFixed ? 'isFixed' : '']">
-    <div class="header-level1 w1200">
+    <div class="header-level1 w1200px">
       <div class="time">
         <span>{{ time }}</span>
         <span>{{ dataTime }}</span>
@@ -20,7 +20,7 @@
       <a href="#">消息通知</a>
       <a href="#">登录</a>
     </div>
-    <div class="header-search w1200">
+    <div class="header-search w1200px">
       <a class="logo" href="/">
         <h1 class="logo-title">xx导航</h1>
         <img class="logo-img" src="http://iph.href.lu/180x60?text=LOGO">
