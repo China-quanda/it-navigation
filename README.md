@@ -73,3 +73,12 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+Visit 访问
+Details 详情
+Go to Website  进入网站
+VOTE 投票
+Launch project 启动项目
+Vote the Design 为设计投票
+Vote this Site! 投票这个网站!
